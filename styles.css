@@ -111,8 +111,8 @@ h3,
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
-  gap: 28px;
+  grid-template-columns: 1fr;
+  gap: 0;
   padding: 28px 0;
   align-items: start;
 }
@@ -144,27 +144,21 @@ h3,
   font-weight: 700;
 }
 
-.profile-panel,
 .section-block {
   background: var(--paper);
   border: 1px solid var(--line);
 }
 
-.profile-panel {
-  padding: 22px;
-}
-
 .pi-photo {
   display: block;
   width: 100%;
-  max-width: 260px;
+  max-width: 240px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  margin: 0 0 18px;
+  margin: 0;
   border: 1px solid var(--line);
 }
 
-.profile-panel h2,
 .section-block h2 {
   margin-top: 0;
   margin-bottom: 14px;
@@ -271,6 +265,28 @@ h3,
   font-weight: 600;
 }
 
+.team-card {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.team-copy h3 {
+  margin: 4px 0 12px;
+  color: var(--navy-deep);
+  font-size: 1.5rem;
+}
+
+.team-role {
+  margin: 0;
+  color: var(--blue);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
 .member-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -316,7 +332,8 @@ h3,
 @media (max-width: 920px) {
   .hero-grid,
   .two-column,
-  .member-grid {
+  .member-grid,
+  .team-card {
     grid-template-columns: 1fr;
   }
 
