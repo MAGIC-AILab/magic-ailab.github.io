@@ -111,9 +111,9 @@ h3,
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.6fr) minmax(280px, 0.9fr);
-  gap: 36px;
-  padding: 48px 0;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
+  gap: 28px;
+  padding: 28px 0;
   align-items: start;
 }
 
@@ -126,16 +126,9 @@ h3,
   letter-spacing: 0.08em;
 }
 
-h1 {
-  margin: 0;
-  color: var(--navy-deep);
-  font-size: clamp(2.2rem, 4vw, 3.9rem);
-  line-height: 1.12;
-}
-
 .lead {
   max-width: 66ch;
-  margin: 18px 0 0;
+  margin: 0;
   color: var(--muted);
   font-size: 1.1rem;
 }
@@ -144,7 +137,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
-  margin-top: 22px;
+  margin-top: 14px;
 }
 
 .text-link {
