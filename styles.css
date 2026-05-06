@@ -133,6 +133,10 @@ h3,
   font-size: 1.1rem;
 }
 
+.lead-secondary {
+  margin-top: 14px;
+}
+
 .hero-links {
   display: flex;
   flex-wrap: wrap;
