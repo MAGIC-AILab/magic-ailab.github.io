@@ -250,6 +250,10 @@ h3,
   align-items: start;
 }
 
+.content-row-full {
+  grid-template-columns: 1fr;
+}
+
 .side-column {
   display: grid;
   gap: 22px;
