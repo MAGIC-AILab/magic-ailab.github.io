@@ -200,8 +200,19 @@ h3,
   padding: 30px 0 56px;
 }
 
-.visitor-section {
+.bottom-section {
   padding: 0 0 32px;
+}
+
+.bottom-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.9fr);
+  gap: 28px;
+  align-items: stretch;
+}
+
+.bottom-card {
+  height: 100%;
 }
 
 .visitor-card {
@@ -364,7 +375,8 @@ h3,
   .hero-grid,
   .two-column,
   .member-grid,
-  .team-card {
+  .team-card,
+  .bottom-grid {
     grid-template-columns: 1fr;
   }
 
