@@ -206,13 +206,26 @@ h3,
   gap: 22px;
 }
 
+.join-highlight {
+  background: linear-gradient(135deg, rgba(43, 95, 145, 0.1), rgba(33, 208, 232, 0.12));
+  border-color: rgba(43, 95, 145, 0.22);
+}
+
+.join-highlight h2 {
+  color: var(--blue);
+}
+
+.join-highlight p {
+  color: var(--text);
+}
+
 .bottom-section {
   padding: 0 0 32px;
 }
 
 .bottom-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.9fr);
+  grid-template-columns: 1fr;
   gap: 28px;
   align-items: stretch;
 }
