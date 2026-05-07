@@ -225,7 +225,7 @@ h3,
 
 .bottom-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.9fr);
   gap: 28px;
   align-items: stretch;
 }
@@ -255,6 +255,13 @@ h3,
 .visitor-counter {
   max-width: 100%;
   height: auto;
+}
+
+.gallery-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
 }
 
 .content-row {
