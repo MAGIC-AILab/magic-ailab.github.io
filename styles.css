@@ -219,6 +219,22 @@ h3,
   color: var(--text);
 }
 
+.why-section h3 {
+  margin: 0 0 10px;
+  color: var(--navy-deep);
+  font-size: 1.2rem;
+}
+
+.why-list {
+  margin: 0 0 18px;
+  padding-left: 20px;
+}
+
+.why-list li {
+  margin-bottom: 10px;
+  color: var(--text);
+}
+
 .bottom-section {
   padding: 0 0 32px;
 }
